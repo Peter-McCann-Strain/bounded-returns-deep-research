@@ -1,0 +1,30 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite the paper and the software release."
+title: "Deep Research: Bounded Returns to Orchestration"
+authors:
+  - family-names: "McCann Strain"
+    given-names: "Peter"
+license: "Apache-2.0"
+repository-code: "https://github.com/Peter-McCann-Strain/bounded-returns-deep-research"
+version: "0.1.0"
+date-released: "2026-07-31"
+identifiers:
+  - type: doi
+    value: "10.5281/zenodo.21118281"
+    description: "Archived release and paper"
+abstract: >-
+  Research codebase for a controlled comparison of eleven automated deep-research
+  orchestration architectures, held constant on model and tools so that
+  architecture is the variable. Ships 18 pattern implementations in total: the
+  eleven compared in the paper plus seven later probes and controls. Ships the pattern implementations, retrieval and
+  judging tools, the evaluation harness with a nine-dimension rubric and
+  multi-model judge panel, experiment runners, the statistical analysis that
+  produces the paper's reported numbers, and the tidy evaluation frames those
+  analyses read.
+keywords:
+  - deep research
+  - retrieval-augmented generation
+  - agent orchestration
+  - reproducibility
+  - LLM-as-judge
+  - evaluation

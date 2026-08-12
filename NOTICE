@@ -1,0 +1,21 @@
+Deep Research Public Release Notice
+
+Code license: the source code in deep_research/, scripts/, tests/, and the
+paper's analysis scripts are licensed under Apache-2.0, as stated in LICENSE.
+
+Data license boundary: public data files are mixed-license research inputs. The
+root Apache-2.0 license does not override upstream licenses for third-party
+benchmark rows. See DATA_LICENSES.md for the row-level source table. In brief:
+DRACO rows are MIT, DeepSearchQA rows are Apache-2.0, ResearchQA rows are MIT,
+LitQA2/LAB-Bench rows are CC-BY-SA-4.0, and custom rows are Apache-2.0.
+
+Public redaction: one DRACO-derived affiliate-marketing query was anonymized
+before public release to remove a named individual, a small-business identifier,
+and a private-planning-board reference while preserving the evaluation task
+shape.
+
+Excluded material: generated reports, raw judge verdict forests, local API/search
+caches, paper drafts, LaTeX sources, private notes, model weights, and
+checkpoints are intentionally not part of the public GitHub release. The
+local/GPU pattern implementations (P9-P17) are included as runnable code; the
+model weights they load are fetched from Hugging Face at run time.

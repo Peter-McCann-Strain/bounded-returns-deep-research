@@ -1,0 +1,10 @@
+# Default reproduction profile: run the API patterns and recompute the paper's
+# statistics from the shipped analysis frames.
+#
+# This repository is clone-oriented; install from the checkout so repo-relative
+# data/, repro/, docs/, and papers/ artifacts stay available to the CLI and to
+# the analysis scripts.
+#
+# GPU/local-model dependencies (patterns P9-P17) are NOT included here: torch
+# must match your CUDA build. Install those separately with `pip install -e ".[local]"`.
+-e .[api,paper]
